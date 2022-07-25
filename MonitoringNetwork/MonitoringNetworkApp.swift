@@ -12,6 +12,7 @@ struct MonitoringNetworkApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(MonitoringNetworkState())
         }
     }
 }

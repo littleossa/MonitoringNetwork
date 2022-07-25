@@ -11,6 +11,7 @@
 		9748BDC3288E8B77006DF0BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748BDC2288E8B77006DF0BE /* ContentView.swift */; };
 		9748BDC5288E8B78006DF0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9748BDC4288E8B78006DF0BE /* Assets.xcassets */; };
 		9748BDC8288E8B78006DF0BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9748BDC7288E8B78006DF0BE /* Preview Assets.xcassets */; };
+		9748BDCF288E8B8F006DF0BE /* MonitoringNewtorkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748BDCE288E8B8F006DF0BE /* MonitoringNewtorkState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		9748BDC2288E8B77006DF0BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9748BDC4288E8B78006DF0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9748BDC7288E8B78006DF0BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9748BDCE288E8B8F006DF0BE /* MonitoringNewtorkState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringNewtorkState.swift; sourceTree = "<group>"; };
+		9748BDD0288E95EA006DF0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		9748BDBF288E8B77006DF0BE /* MonitoringNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				9748BDD0288E95EA006DF0BE /* Info.plist */,
 				9748BDC0288E8B77006DF0BE /* MonitoringNetworkApp.swift */,
 				9748BDC2288E8B77006DF0BE /* ContentView.swift */,
+				9748BDCE288E8B8F006DF0BE /* MonitoringNewtorkState.swift */,
 				9748BDC4288E8B78006DF0BE /* Assets.xcassets */,
 				9748BDC6288E8B78006DF0BE /* Preview Content */,
 			);
@@ -139,6 +144,7 @@
 			files = (
 				9748BDC3288E8B77006DF0BE /* ContentView.swift in Sources */,
 				9748BDC1288E8B77006DF0BE /* MonitoringNetworkApp.swift in Sources */,
+				9748BDCF288E8B8F006DF0BE /* MonitoringNewtorkState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +276,11 @@
 				DEVELOPMENT_TEAM = 2V4975L824;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonitoringNetwork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +307,11 @@
 				DEVELOPMENT_TEAM = 2V4975L824;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonitoringNetwork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
