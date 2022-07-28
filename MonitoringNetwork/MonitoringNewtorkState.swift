@@ -20,11 +20,11 @@ class MonitoringNetworkState: ObservableObject {
         
         monitor.pathUpdateHandler = { path in
             if path.status == .satisfied {
-                OperationQueue.main.addOperation {
+                DispatchQueue.main.async {
                     self.isConnected = true
                 }
             } else {
-                OperationQueue.main.addOperation {
+                DispatchQueue.main.async {
                     self.isConnected = false
                 }
             }
